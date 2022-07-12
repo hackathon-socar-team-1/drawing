@@ -63,5 +63,5 @@
 - ### **백엔드** - python, flask
 
 - ### **크롤링** - python
-- 
+
 - ### **사모델** - vgg16, feature0-extractor, unet
