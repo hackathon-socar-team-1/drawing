@@ -10,7 +10,7 @@
 
 
 
-## 🌟 drawing :
+## 🌟 drawing-project : 사용자가 꿈꾸는 여행지 추천
 
 ## 👇🏻 서비스 링크
 
@@ -27,13 +27,13 @@
 
 ## 📌 팀원 정보
 
-👩‍🦰 김명희 
+👩‍🦰 김명희 [@huista](https://github.com/huista)
 
-😆 류호원 
+😆 류호원 [@howon-ryu](https://github.com/howon-ryu)
 
-👨 김효석 
+👨 김효석 [@gytjr8422](https://github.com/gytjr8422)
 
-🤵 김기석 
+🤵 김기석 [@kiseseok](https://github.com/kiseseok)
 
 
 
