@@ -37,9 +37,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 root = os.path.join(os.getcwd(), "data")
 
 class DestDataset(Dataset):
-    def __init__(self, path2img, direction='b2a', transform=False):
+    def __init__(self, path2img, transform=False):
         super().__init__()
-        self.direction = direction
         self.path2a = join(path2img, 'a')
         self.path2b = join(path2img, 'b')
         self.img_filenames = [x for x in listdir(self.path2a)]
@@ -53,11 +52,8 @@ class DestDataset(Dataset):
             a = self.transform(a)
             b = self.transform(b)
 
-        if self.direction == 'b2a':
-            return b,a
-        else:
-            return a,b
-
+        return b,a
+        
     def __len__(self):
         return len(self.img_filenames)
 
